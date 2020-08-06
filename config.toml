@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Cynthia's Portfolio"
+theme = "cynthia-portfolio"
+description = "Cynthia Kar's Coding and Design Portfolio"
+sectionPagesMenu = "main"
+[taxonomies]
+  skills = "skills"
+  languages = "languages"
+  projtype = "proj-type"
+[markup.goldmark.renderer]
+  unsafe= true
